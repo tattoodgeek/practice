@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+print "What is your name? "
+name = String(gets.chomp)
+name.capitalize!
+
+if name == "Yessica"
+  puts "Hello there, Yessica!"
+
+elsif name == "Luis"
+  puts "So you're Luis!"
+
+else
+  puts "Hey there #{name}!"
+
+end
