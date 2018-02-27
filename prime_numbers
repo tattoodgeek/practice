@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+=begin
+
+Pring the 1st 100 Prime Numbers
+
+=end
+
+require 'prime'
+
+puts Prime.first(100)
